@@ -1,0 +1,3265 @@
+
+
+
+
+ header {
+    overflow: hidden;
+    /*
+    background-color: #333;
+    */
+    background-color:black;
+    position:fixed;
+    top: 0;
+    width: 100%
+    
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+  .topnav a {
+      float: left;
+    display:block;
+   
+    color:thistle;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+  }
+  a:first-child{
+      margin-right: 25%;
+      margin-left: 8%;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: red;
+    text-decoration:none;
+    box-sizing: border-box;
+    border-radius: 40%;
+  }
+  
+  .topnav a.active {
+    color: white;
+    font-size: 20px;
+    font-style:normal;
+  }
+  #myTopnav b{
+      color: red;
+       list-style: none;
+       text-decoration: none;
+       font-size: 30px;
+  }
+  
+  .topnav a.active:hover{
+      background-color: #ddd;
+      color: red;
+      box-sizing: border-box;
+      border-radius: 40%;
+  }
+  
+  .topnav .icon {
+    display:none;
+  }
+
+  @media screen and (min-width: 601px ) and (max-width:800px){
+    .topnav a {
+        display: block;
+        margin-left: 10px;
+        float: right;
+    }
+    a:first-child{
+        margin-left: 40px;
+    }
+    .social-icons li img{
+        font-size: 10px;
+    }
+    .column p.digtech{
+        margin-top: 30px;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+   
+  }
+  
+   
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+  }
+ 
+/* body for index page*/
+#homeid-1{
+    background-color:white;
+    margin-top: 150px;
+    height: 450px;
+    position: inherit;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#homeid-1 h3, #homeid-1 p{
+    margin-left: 15%;
+    margin-right: 10%;
+}
+#homeid-1 h3{
+    color: rgb(136, 132, 132);
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#homeid-1 .p1{
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+#homeid-1 .p2{
+    font-size: 17px;
+    line-height: 20px;
+    color: rgb(41, 39, 39);
+}
+
+.social-icons {
+    text-align: center;
+    }  
+    /* Social media icons*/
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    
+    }
+  .social-icons li a {
+    border-bottom: none;
+    }
+  .social-icons li img {
+    width:40px;
+    height:30px;
+    margin-right:10px;
+  }
+  .social-icons img:hover{
+      background-color: white;
+  }
+  /*CSS for services */
+  /*our services*/
+  #serviceid{
+      /*
+      background-color:black;
+      */
+      background-image: url("../IMAGES/bgimage4.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+      margin-top: 80px;
+      height: 2200px;
+      width: 100%;
+      color: white;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  /* wraper-1 for service */
+  
+  .wraper-1{
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-bottom: 80px;
+  }
+  
+  .wraper-1 .service-p-1{
+    font-size: 60px;
+    margin-top: 120px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  .wraper-1 .service-p-2{
+      font-size: 17px;
+      color:floralwhite;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      text-align: center;
+  }
+  /* wraper-2*/
+  .wraper-2{
+      margin-left: 50px;
+      margin-bottom: 150px;
+      margin-top: 70px;
+      text-align: center;
+  }
+  .wraper-2 .service-2-p1{
+      font-size: 30px;
+      letter-spacing: -0.5px;
+  }
+  .wraper-2 .service-2-p2{
+    margin-top:35px;
+    font-size:17px ;
+    letter-spacing: 0.5px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  /* wraper for service 3*/
+  .wraper-3{
+      
+      margin-bottom: 20px;
+  }
+  .wraper-3 .col-1{
+      float: left;
+  }
+  .wraper-3 .pg-1{
+      margin-right: 150px;
+      font-size: 30px;
+      margin-left: 50px;
+  }
+  .wraper-3 .pg-2{
+      margin-right: 50px;
+      font-size: 17px;
+      letter-spacing: 0.5px;
+  }
+  /* wraper-4*/
+  .wraper-4 .col-2{
+      float: left;
+  }
+  .wraper-4 hr{
+      margin-right: 50px;
+      margin-bottom: 20px;
+      margin-left: 50px;
+  }
+  .wraper-4 .pg-1{
+    margin-right: 300px;
+    font-size: 30px;
+    margin-left: 50px;
+    letter-spacing: 0.5px;
+  }
+  .wraper-4 .col-2 .pg-2{
+      font-size: 17px;
+      margin-right: 50px;
+  }
+  /* wraper-5 */
+  .wraper-5 .col-3{
+    float: left;
+}
+.wraper-5 hr{
+    margin-right:50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.wraper-5 .col-3 .pg-1{
+  margin-right: 110px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+.wraper-5 .col-3 .pg-2{
+    font-size: 17px;
+    margin-right: 50px;
+}
+/* wraper-6 - Our services*/
+.wraper-6{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-align: center;
+ }
+ .wraper-6 .sp-1{
+   font-size: 40px;
+   margin-bottom: 20px;
+   
+ }
+ .wraper-6 .sp-2{
+     font-size: 17px;
+     color:floralwhite;
+     font-weight: bold;
+     letter-spacing: 0.5px;
+     margin-left: 100px;
+     margin-right: 100px;
+ }
+/* wraper-7*/
+.wraper-7{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wraper-7 .col-5{
+    float: left;
+}
+.wraper-7 .pg-1{
+    margin-right: 345px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.wraper-7 .pg-2{
+    font-size: 17px;
+    margin-right: 50px;
+}
+/* wraper-8*/
+.wraper-8{
+    margin-top: 20px;
+}
+.wraper-8 .col-6{
+    float: left;
+}
+.wraper-8 hr{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.wraper-8 .pg-1{
+    margin-right: 340px;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.wraper-8 .pg-2{
+    font-size: 17px;
+    margin-right: 150px;
+}
+/* wraper-9*/
+.container .wraper-9{
+    margin-top: 20px;
+}
+.wraper-9 .col-7{
+    float: left;
+}
+.wraper-9 hr{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.wraper-9 .pg-1{
+    margin-top: 10px;
+    margin-right: 260px;
+    margin-left: 50px;
+    font-size: 30px
+}
+.wraper-9 .pg-2{
+    font-size: 17px;
+    margin-right: 50px;
+}
+/*wraper-10*/
+.wraper-10{
+    margin-top: 20px;
+}
+.wraper-10 .col-8{
+    float: left;
+}
+.wraper-10 hr{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.wraper-10 .pg-1{
+    margin-right: 365px;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.wraper-10 .pg-2{
+    font-size: 17px;
+    margin-right: 50px;
+}
+/*wraper*/
+.wraper-11{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    position: inherit;
+    width: 100%;
+    margin-left: 0;
+    height: 150px;
+}
+.wraper-11 h2{
+    color: black;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.wraper-11 p.msg{
+    color: black;
+    margin-left: 200px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.wraper-11 p input{
+    background-color:rgba(241, 20, 20, 0.767);
+    margin-left: 200px;
+    margin-top:30px;
+    height: 45px;
+    width: 125px;
+}
+  /* body for about us page*/
+.about{
+    /*
+    background-color:black;
+    */
+    background-image: url("../IMAGES/bgimage4.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    margin-top: 50px;
+    height: 1200px;
+    position: inherit;
+    margin-bottom: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+/* CSS for about page*/
+/* container 1*/
+.container .wraper2-1{
+    color:white;
+    margin-top: 200px;
+    height: 250px;
+    margin-left: 100px;
+}
+.wraper2-1 .p1{
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.wraper2-1 .p2{
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+ /* about wraper2*/
+ .container .wraper2-2{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+ }
+ .wraper2-2 .col-1{
+     float: left;
+ }
+ .wraper2-2 .p1{
+   font-size: 23px;
+   margin-right: 150px;
+   color: white;
+ }
+ .wraper2-2 .p2{
+     font-size: 17px;
+     color:floralwhite;
+     font-weight: bold;
+ }
+ .wraper2-2 .p3{
+     margin-top: 15px;
+    font-size: 15px;
+    color:floralwhite;
+}
+
+/* about wraper3*/
+.container .wraper2-3{
+    margin-top: 15px;
+    margin-bottom: 20;
+    margin-left: 50px;
+ }
+ .wraper2-3 .col-2{
+     float: left;
+ }
+ .wraper2-3 .p1{
+   font-size: 23px;
+   margin-right: 200px;
+   color: white;
+ }
+ .wraper2-3 .p2{
+     font-size: 17px;
+     color:floralwhite;
+     font-weight: bold;
+ }
+ .wraper2-3 hr{
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+ .wraper2-3 .p3{
+    font-size: 15px;
+    color:floralwhite;
+    margin-top: 15px;
+}
+
+/* about wraper4*/
+.container .wraper2-4{
+    margin-top: 15px;
+    margin-bottom: 20PX;
+    margin-left: 50px;
+ }
+ .wraper2-4 .col-3{
+     float: left;
+ }
+ .wraper2-4 .p1{
+   font-size: 23px;
+   margin-right: 110px;
+   color:white;
+ }
+ .wraper2-4 .p2{
+     font-size: 15px;
+     color:floralwhite;
+     font-weight: bold;
+ }
+ .wraper2-4 hr{
+    margin-right: 40px;
+}
+
+
+/* about-5*/
+.container-fluid .wraper-2-5{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    position: inherit;
+    width: 100%;
+    margin-left: 0;
+    height: 250px;
+}
+.wraper-2-5 h2{
+    color: black;
+    margin-top: 250px;
+    margin-left: 250px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.wraper-2-5 p.msg{
+    color: black;
+    margin-left: 250px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.wraper-2-5 p input{
+    background-color:rgba(241, 20, 20, 0.767);
+    margin-left: 250px;
+    margin-top:30px;
+    height: 45px;
+    width: 125px;
+}
+
+/* Contact us page*/
+.contact{
+    /*
+    background-color:black;
+    */
+    background-image: url("../IMAGES/bgimage3.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    margin-top: 75px;
+    height: 1100px;
+    position: inherit;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.myinfo hr{
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.myinfo h2{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(163, 140, 140);
+    letter-spacing: -1px;
+    margin-left: 30px;
+}
+.myinfo h3{
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgba(230, 217, 217, 0.562);
+    letter-spacing: -0.5px;
+    word-spacing: -0.5px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.myinfo h1 a{
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.myinfo h1 a:hover{
+    color: rgb(112, 105, 105);
+}
+.myinfo p{
+    color: white;
+    font-size: 17px;
+    margin-left: 30px;
+}
+.col{
+    float: left;
+    width: 40%;
+}
+/*
+.col:first-child{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+*/
+ .myinfo{
+    margin-top: 90px;
+}
+.myform{
+    margin-top: 70px;
+}
+.col-2{
+    float: left;
+    width: 30%;
+}
+.col-2:first-child{
+    margin-bottom: 20px;
+    margin-right: 140px;
+    color: rgb(212, 199, 199);
+}
+.message textarea{
+    background-color: black;
+    width: 500px;
+    height: 100px;
+    color: white;
+}
+.col-2:last-child{
+    margin-right: 5px;
+    margin-bottom: 20px;
+    color: rgb(212, 199, 199);
+    
+}
+.message p label{
+    color: rgb(212, 199, 199);
+    margin-top: 20px;
+    width: 470px;
+    font-size: 18px;
+
+}
+.col-2 input{
+    height: 80px;
+    width: 230px;
+    background-color: black;
+    color: white;
+}
+.message .check{
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom:100px;
+}
+/* select*/
+.col-2 select{
+    width: 230px;
+    height: 50px;
+}
+.col-2 label:first-child{
+    font-size: 18px;
+}
+.col-2 label:last-child{
+    margin-top: 20px;
+    color: rgb(212, 199, 199);
+    font-size: 15px;
+}
+.message .submit input{
+    margin-top: 5px;
+    font-size: 18px;
+    width: 90px;
+    padding: 5px 5px;
+    letter-spacing: -0.5px;
+    background-color: rgba(146, 129, 129, 0.123);
+    color: white;
+    height: 60px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+.contact .container{
+    margin-bottom: 100px;
+}
+
+/* works */
+.works{
+    margin-top: 100px;
+    height:900px;
+    background-color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.intromsg h2{
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(126, 104, 104);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.intromsg p{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(97, 91, 91);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/* Row 3 */
+.column1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.column1{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.column1 .work-5{
+    background-image: url("../IMAGES/slide3.jpg");
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-left: 17.5%;
+    margin-right: 2.5%;
+}
+.column1 .work-6{
+    background-image: url("../IMAGES/slide3.jpg");
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-right: 17.5%;
+    margin-left: 2.5%;
+}
+
+/* Row 2 */
+.column-2{
+    margin-top: 5px;
+}
+.column-2{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.column-2 .work-3{
+    background-image: url("../IMAGES/slide3.jpg");
+    margin-left: 17.5%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-right: 2.5%;
+}
+.column-2 .work-4{
+    background-image: url("../IMAGES/slide3.jpg");
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-right: 17.5%;
+    margin-left: 2.5%;
+}
+
+
+
+/* Footer for index page*/
+
+footer{
+    /*
+    background-color: black;
+    */
+    background-image: url("../IMAGES/bgimage5.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.info-1{
+    text-align: center;
+    color: white;
+    /*
+    background-color: rgba(24, 20, 20, 0.747);
+    */
+    background-image: url("../IMAGES/bgimage5.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 200px;
+    bottom: 0;
+    font-weight:normal;
+}
+
+.info-1 p b{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.info-1 p b a{
+    color: red;
+}
+ span{
+    font-size: 40px;
+    top: 200px;
+    letter-spacing: 4px;
+}
+
+div p b a:hover{
+    color:white;
+    text-decoration: none;
+}
+/* row-1*/
+ .row-1{
+    color: red;
+    /*
+    background-color: rgb(14, 13, 13);
+    */
+    background-image: url("../IMAGES/bgimage5.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    height: 0px;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+}
+.column{
+    float: left;
+    width: 30%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight:normal;
+}
+.column:first-child{
+    margin-left: 15%;
+    margin-right: 20px;
+}
+.column .pcol-2, .pcol{
+    margin-top: 20px;
+}
+.column h3{
+    color:rgba(255, 255, 255, 0.938);
+}
+.column p, p a{
+    color:rgba(255, 255, 255, 0.822);
+    text-align:start;
+}
+.column p a{
+    margin-left: 0;
+}
+/*row-2*/
+.row-2{
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.column b{
+    color:white;
+    font-size: 25px;
+}
+.column p a:hover{
+    color: white;
+    text-decoration: none;
+    text-emphasis: none;
+}
+.row-2 .column ul{
+    margin-top: 45px;
+    font-size: 20px;
+}
+ .social-icons a{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.column .digtech {
+    margin-top: 30px;
+    font-size: 17px;
+    margin-top: 45px;
+}
+/* MEDIA QUERY */
+
+    @media screen and (max-width:480px){
+/* Home Page */
+.topnav a.active{
+    font-size: 15px;
+}
+a:first-child{
+    margin-left: 0px;
+    margin-right: 5%;
+}
+#homeid-1 {
+    margin-top: 100px;
+    height: 650px;
+}
+#homeid-1 h3 {
+    color: rgb(136, 132, 132);
+    margin-top: 150px;
+    font-size: 15px;
+}
+#homeid-1 .p1 {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 25px;
+}
+#homeid-1 .p2 {
+    font-size:15px;
+    line-height: 10px;
+    margin-top: 25px;
+    line-height: 19px;
+}
+
+/* About Page */
+.about{
+    height: 1500px;
+}
+.wraper2-1{
+    display:inline-block;
+    width: 100%;
+}
+.container .wraper2-1 {
+    color: white;
+    margin-top: 150px;
+    height: 250px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wraper2-1 .p1 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.wraper2-1 .p2 {
+    font-size: 15px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.container .wraper2-2{
+    display: inline-block;
+    width: 100%;
+    text-align:left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.wraper2-3 .p3{
+    margin-bottom: 5px;
+}
+.container .wraper2-3{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.wraper2-2 hr{
+    margin-bottom: 105x;
+    margin-top: 10px;
+}
+.wraper2-2 .p1 {
+    font-size: 25px;
+    margin-right: 10px;
+    color: white;
+}
+.wraper2-2 .p3{
+    margin-bottom: 5px;
+}
+.container .wraper2-3{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.wraper2-3 hr{
+    margin-bottom: 105x;
+    margin-top: 10px;
+}
+.wraper2-3 .p1 {
+    font-size: 25px;
+    margin-right: 10px;
+    color: white;
+}
+.container .wraper2-4{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.wraper2-4 hr{
+    margin-bottom: 105x;
+    margin-top: 10px;
+}
+.wraper2-4 .p1 {
+    font-size: 25px;
+    margin-right: 10px;
+    color: white;
+}
+.container-fluid .wraper-2-5 {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    position: inherit;
+    width: 100%;
+    margin-left: 0;
+    height: 250px;
+}
+.wraper-2-5 h2 {
+    color: black;
+    margin-top: 250px;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.wraper-2-5 p.msg {
+    color: black;
+    margin-left: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.wraper-2-5 p input {
+    background-color: rgba(241, 20, 20, 0.767);
+    margin-left: 10px;
+    margin-top: 25px;
+    height: 45px;
+    width: 125px;
+}
+
+/* SERVICES */
+#serviceid{
+    height: 2700px;
+    width: 100%;
+    margin-top: 98px;
+}
+
+/* wraper-1 for service */
+.wraper-1{
+   margin-top: 120px;
+   margin-bottom: 80px;
+}
+.wraper-1 .service-p-1{
+  font-size: 40px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.wraper-1 .service-p-2{
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* wraper-2*/
+.container .wraper-2{
+    margin-bottom: 80px;
+    margin-top: 70px;
+}
+.wraper-2 .service-2-p1{
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.wraper-2 .service-2-p2{
+  margin-top:35px;
+  font-size:15px ;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* wraper for service 3*/
+.wraper-3 .col-1{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+}
+.wraper-3 .col-1 .pg-1{
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: left;
+}
+.wraper-3 .col-1 .pg-2{
+    font-size: 15px;
+    text-align: left;
+}
+/* wraper-4*/
+
+.wraper-4 .col-2{
+    float: left;
+    width: 100%;
+}
+.wraper-4 hr{
+    margin-right:10px;
+    margin-top: 10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+.wraper-4 .col-2 .pg-1{
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.wraper-4 .col-2 .pg-2{
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* wraper-5 */
+
+.wraper-5 .col-3{
+  float: left;
+  width: 100%;
+}
+.wraper-5 hr{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.wraper-5 .col-3 .pg-1{
+margin-right: 10px;
+margin-left: 10px;
+margin-top: 10px;
+font-size: 20px;
+}
+.wraper-5 .col-3 .pg-2{
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left:10px;
+}
+/* wraper-6 - Our services*/
+
+.wraper-6 .sp-1{
+ font-size: 40px;
+ margin-bottom: 20px;
+ margin-left: 10px;
+ margin-right: 10px;
+ text-align: center;
+ margin-top: 70px;
+ 
+}
+.wraper-6 .sp-2{
+   font-size: 15px;
+   letter-spacing: -0.5px;
+   margin-left: 10px;
+   margin-right: 10px;
+   text-align: center;
+}
+/* wraper-7*/
+
+.wraper-7 .col-5{
+  float: left;
+  width: 100%;
+}
+.wraper-7 .pg-1{
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.wraper-7 .pg-2{
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* wraper-8*/
+
+.wraper-8 .col-6{
+  float: left;
+  width: 100%;
+}
+.wraper-8 hr{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.wraper-8 .pg-1{
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px
+}
+.wraper-8 .pg-2{
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* wraper-9*/
+
+.wraper-9 .col-7{
+  float: left;
+  width: 100%;
+}
+.wraper-9 hr{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.wraper-9 .pg-1{
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px
+}
+.wraper-9 .pg-2{
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/*wraper-10*/
+
+.wraper-10 .col-8{
+  float: left;
+  width: 100%;
+}
+.wraper-10 hr{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+.wraper-10 .pg-1{
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px
+}
+.wraper-10 .pg-2{
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/*wraper*/
+.wraper-11{
+    height: 200px;
+}
+.wraper-11 h2{
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 40px;
+}
+.wraper-11 p.msg{
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.wraper-11 p input{
+  margin-left: 20px;
+  margin-top:30px;
+  height: 45px;
+  width: 125px;
+}
+
+/* CONTACT */
+
+.contact{
+    margin-top: 70px;
+    height: 1500px;
+   }
+.myinfo hr{
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.myinfo h2{
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.myinfo h3{
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    word-spacing: -0.5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.myinfo h1 a{
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.myinfo p{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.col{
+    float: left;
+    width: 100%;
+}
+.col:first-child{
+    margin-bottom: 50px;
+}
+.col:last-child{
+    margin-left: 20px;
+}
+.myinfo{
+    margin-top: 90px;
+}
+ .myform{
+    margin-top: 70px;
+}
+.myform .col-2{
+    float: left;
+    width: 100%;
+
+}
+.col .myform .col-2:first-child{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.message textarea{
+    margin-right: 20px;
+    width: 230px;
+    height: 70px;
+    margin-left: 20px;
+}
+.col .myform .col-2:last-child{
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.message p label{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.col-2 input{
+    height: 40px;
+    width: 230px;
+    margin-left: 20px;
+}
+.message .check{
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+/* select*/
+.col-2 select{
+    width: 230px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.col-2 label{
+    font-size: 20px;
+}
+.col-2 label:last-child{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.message .submit input{
+    margin-top: 7px;
+    font-size: 20px;
+    width: 90px;
+    padding: 5px 5px;
+    letter-spacing: -0.5px;
+    height: 40px;
+    margin-left: 20px;
+}
+input.ng-pristine{
+    background-color: red;
+}
+
+
+/* works*/
+.works{
+    margin-top: 100px;
+    height:1700px;
+    width: 100%;
+}
+.intromsg h2{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.intromsg p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Row 3 */
+.column1{
+    margin-bottom: 5px;
+}
+.column1{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.column1 .work-5{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.column-3 .work-6{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+/* Row 2 */
+.column-2{
+    margin-top: 5px;
+}
+.column-2{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.column-2 .work-3{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.column-2 .work-4{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+
+/* Footer */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 750px;
+}
+span {
+    font-size: 20px;
+    top: 200px;
+    letter-spacing: 2px;
+}
+.info-1 p b {
+    font-size: 10px;
+    text-align:center;
+}
+.column {
+    display: inline-block;
+    width: 100%;
+}
+.column:first-child .pcol{
+    text-align:inherit;
+    font-size: 13px;
+    line-height: 10px;
+}
+.column:first-child{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.column:last-child{
+     margin-top: 40px;
+     margin-left: 15%;
+}
+.column .pcol-2, .pcol-2 a{
+    text-align: inherit;
+    line-height: 10px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.row-2 .column{
+    display: inline-block;
+    width: 100%;
+}
+    
+    .column p{
+        color:rgba(255, 255, 255, 0.877);
+        font-size: 20px;
+    }
+    .column b{
+        color: white;
+        font-size: 23px;
+    }
+    .row-2 .column ul{
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .column .digtech{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    a:first-child {
+        margin-top: 5px;
+    }
+    .social-icons {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:600px){
+    #homeid-1 {
+        margin-top: 120px;
+        height: 500px;
+    }
+    #homeid-1 h3 {
+        color: rgb(136, 132, 132);
+        margin-top: 80px;
+        font-size: 15px;
+    }
+    #homeid-1 .p1 {
+        margin-top: 50px;
+        font-size: 25px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+    }
+    #homeid-1 .p2 {
+        font-size:15px;
+        line-height: 10px;
+        margin-top: 35px;
+        line-height: 19px;
+    }
+    
+    /* About Page */
+    .about{
+        height: 1500px;
+    }
+    .wraper2-1{
+        display:inline-block;
+        width: 100%;
+    }
+    .container .wraper2-1 {
+        color: white;
+        margin-top: 150px;
+        height: 250px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wraper2-1 .p1 {
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .wraper2-1 .p2 {
+        font-size: 15px;
+        margin-top: 15px;
+        letter-spacing: 1px;
+    }
+    .container .wraper2-2{
+        display: inline-block;
+        width: 100%;
+        text-align:left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+    .wraper2-3 .p3{
+        margin-bottom: 5px;
+    }
+    .container .wraper2-3{
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .wraper2-2 hr{
+        margin-bottom: 105x;
+        margin-top: 10px;
+    }
+    .wraper2-2 .p1 {
+        font-size: 25px;
+        margin-right: 10px;
+        color: white;
+    }
+    .wraper2-2 .p3{
+        margin-bottom: 5px;
+    }
+    .container .wraper2-3{
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .wraper2-3 hr{
+        margin-bottom: 105x;
+        margin-top: 10px;
+    }
+    .wraper2-3 .p1 {
+        font-size: 25px;
+        margin-right: 10px;
+        color: white;
+    }
+    .container .wraper2-4{
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .wraper2-4 hr{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .wraper2-4 .p1 {
+        font-size: 25px;
+        margin-right: 10px;
+        color: white;
+
+    }
+    .container-fluid .wraper-2-5 {
+        margin-left: 100px;
+        margin-bottom: 100px;
+        background-color: white;
+        position: inherit;
+        width: 100%;
+        margin-left: 0;
+        height: 250px;
+    }
+    .wraper-2-5 h2 {
+        color: black;
+        margin-top: 300px;
+        margin-left: 10px;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .wraper-2-5 p.msg {
+        color: black;
+        margin-left: 10px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+    .wraper-2-5 p input {
+        background-color: rgba(241, 20, 20, 0.767);
+        margin-left: 10px;
+        margin-top: 25px;
+        height: 45px;
+        width: 125px;
+    }
+
+    /* SERVICES */
+
+    #serviceid{
+        height: 2100px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    
+    /* wraper-1 for service */
+    .wraper-1{
+       margin-top: 120px;
+       margin-bottom: 75px;
+    }
+    .wraper-1 .service-p-1{
+      font-size: 40px;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .wraper-1 .service-p-2{
+        font-size: 15px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* wraper-2*/
+    .container .wraper-2{
+        margin-bottom: 80px;
+        margin-top: 60px;
+    }
+    .wraper-2 .service-2-p1{
+        font-size: 20px;
+        letter-spacing: -0.4px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wraper-2 .service-2-p2{
+      margin-top:30px;
+      font-size:15px ;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    /* wraper for service 3*/
+    .wraper-3 .col-1{
+        float: left;
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 100%;
+    }
+    .wraper-3 .col-1 .pg-1{
+        font-size: 20px;
+        margin-top: 100px;
+        text-align: left;
+    }
+    .wraper-3 .col-1 .pg-2{
+        font-size: 15px;
+        text-align: left;
+    }
+    /* wraper-4*/
+    
+    .wraper-4 .col-2{
+        float: left;
+        width: 100%;
+    }
+    .wraper-4 hr{
+        margin-right:50px;
+        margin-top: 10px;
+        margin-left:50px;
+        margin-bottom: 10px;
+    }
+    .wraper-4 .col-2 .pg-1{
+      margin-right: 50px;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 50px;
+    }
+    .wraper-4 .col-2 .pg-2{
+        font-size: 15px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    /* wraper-5 */
+    
+    .wraper-5 .col-3{
+      float: left;
+      width: 100%;
+    }
+    .wraper-5 hr{
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 5px;
+    }
+    .wraper-5 .col-3 .pg-1{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    }
+    .wraper-5 .col-3 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left:50px;
+    }
+    /* wraper-6 - Our services*/
+    
+    .wraper-6 .sp-1{
+     font-size: 40px;
+     margin-bottom: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
+     text-align: center;
+     margin-top: 70px;
+     
+    }
+    .wraper-6 .sp-2{
+       font-size: 15px;
+       letter-spacing: -0.5px;
+       margin-left: 50px;
+       margin-right: 50px;
+       text-align: center;
+    }
+    /* wraper-7*/
+    
+    .wraper-7 .col-5{
+      float: left;
+      width: 100%;
+    }
+    .wraper-7 .pg-1{
+      margin-right: 50px;
+      margin-left: 50px;
+      font-size: 30px;
+      margin-top: 50px;
+    }
+    .wraper-7 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    /* wraper-8*/
+    
+    .wraper-8 .col-6{
+      float: left;
+      width: 100%;
+    }
+    .wraper-8 hr{
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+    }
+    .wraper-8 .pg-1{
+      margin-right: 50px;
+      margin-left: 50px;
+      font-size: 30px
+    }
+    .wraper-8 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    /* wraper-9*/
+    
+    .wraper-9 .col-7{
+      float: left;
+      width: 100%;
+    }
+    .wraper-9 hr{
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+    }
+    .wraper-9 .pg-1{
+      margin-right: 50px;
+      margin-left: 50px;
+      font-size: 30px
+    }
+    .wraper-9 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    /*wraper-10*/
+    
+    .wraper-10 .col-8{
+      float: left;
+      width: 100%;
+    }
+    .wraper-10 hr{
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+    
+    }
+    .wraper-10 .pg-1{
+      margin-right: 50px;
+      margin-left: 50px;
+      font-size: 30px
+    }
+    .wraper-10 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    /*wraper*/
+    .wraper-11{
+        height: 300px;
+    }
+    .wraper-11 h2{
+      margin-top: 80px;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 40px;
+    }
+    .wraper-11 p.msg{
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+    .wraper-11 p input{
+      margin-left: 50px;
+      margin-top:30px;
+      height: 45px;
+      width: 125px;
+    }
+
+    /* CONTACT */
+
+.contact{
+    margin-top: 60px;
+    height: 1500px;
+   }
+.myinfo hr{
+    width: 130px;
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.myinfo h2{
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 2px;
+    margin-left: 100px;
+}
+.myinfo h3{
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    word-spacing: -0.5px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+.myinfo h1 a{
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+.myinfo p{
+    font-size: 17px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+.col{
+    float: left;
+    width: 100%;
+}
+.col:first-child{
+    margin-bottom: 50px;
+}
+.col:last-child{
+    margin-left: 100px;
+}
+.myinfo{
+    margin-top: 90px;
+}
+.myform{
+    margin-top: 70px;
+}
+.myform .col-2{
+    float: left;
+}
+.col .myform .col-2:first-child{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.message textarea{
+    margin-right: 20px;
+    width: 230px;
+    height: 70px;
+    margin-left: 100px;
+}
+.col .myform .col-2:last-child{
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.message p label{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.col-2 input{
+    height: 40px;
+    width: 230px;
+    margin-left: 100px;
+}
+.message .check{
+    letter-spacing: 1px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+/* select*/
+.col-2 select{
+    width: 230px;
+    height: 40px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.col-2 label{
+    font-size: 20px;
+}
+.col-2 label:last-child{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.message .submit input{
+    margin-top: 7px;
+    font-size: 20px;
+    width: 90px;
+    padding: 5px 5px;
+    letter-spacing: -0.5px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+/* works*/
+.works{
+    margin-top: 100px;
+    height:1700px;
+    width: 100%;
+}
+.intromsg h2{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.intromsg p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Row 1 */
+.column1{
+    margin-bottom: 5px;
+}
+.column1{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.column1 .work-5{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.column1 .work-6{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+/* Row 2 */
+.column-2{
+    margin-top: 5px;
+}
+.column-2{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.column-2 .work-3{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.column-2 .work-4{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+            
+/* Footer */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 550px;
+ }
+ span {
+    font-size: 20px;
+    top: 200px;
+    letter-spacing: 2px;
+}
+.info-1 p b {
+    font-size: 10px;
+    text-align:center;
+}
+.column {
+    float: left;
+    width: 30%;
+}
+.column:first-child .pcol{
+    text-align:left;
+    font-size: 13px;
+    line-height: 10px;
+}
+.column b{
+    color:white;
+    font-size: 20px;
+}
+.column:first-child{
+    margin-top: 20px;
+}
+.column:last-child{
+    margin-top: 20px;
+}
+.column .pcol-2, .pcol-2 a{
+    text-align: inherit;
+    line-height: 10px;
+    font-size: 13px;
+}
+.row-2 .column{
+    float: left;
+    width: 40%;
+}
+.column .digtech{
+    font-size: 13px;
+}
+.row-2 .column ul{
+     font-size: 15px;
+}
+}
+@media screen and (min-width:600px) and (max-width:760px) {
+    /* header */
+    header {
+        overflow: hidden;
+        position:fixed;
+        top: 0;
+        width: 100%
+        
+     }
+     html{
+         scroll-behavior: smooth;
+     }
+      .topnav a {
+          float: left;
+        text-align: center;
+        padding: 20px 20px;
+        font-size: 14px;
+        letter-spacing: 1px;
+      }
+      a:first-child{
+          margin-right: 20px;
+          margin-left: 20px;
+      }
+      
+      .topnav a.active {
+          
+        color: white;
+        font-size: 15px;
+        font-style:normal;
+      }
+      #myTopnav b{
+        font-size: 20px;
+   }
+   /* body */
+   #homeid-1 h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#homeid-1 .p1 {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 40px;
+}
+#homeid-1 .p2 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+/* FOOTER */
+span {
+    font-size: 30px;
+    top: 200px;
+    letter-spacing: 4px;
+}
+.info-1 p b {
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.column {
+    float: left;
+        width: 30%;
+    }
+    .column:first-child .pcol{
+        text-align:left;
+        font-size: 15px;
+        line-height: 10px;
+        margin-bottom: 20px;
+    }
+    .column b{
+        color:white;
+        font-size: 25px;
+    }
+    .column:first-child{
+        margin-top: 20px;
+    }
+    .column:last-child{
+        margin-top: 20px;
+    }
+    .column .pcol-2 a{
+        text-align: inherit;
+        line-height: 10px;
+        font-size: 15px;
+    }
+    .column:last-child .pcol-2{
+        text-align: inherit;
+        line-height: 10px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .row-2 .column{
+        float: left;
+        width: 40%;
+    }
+    .column .digtech{
+        font-size: 15px;
+    }
+    .row-2 .column ul{
+        font-size: 15px;
+    }
+    
+    /* SERVICES */
+
+    #serviceid{
+        height: 2100px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    
+    /* wraper-1 for service */
+    .wraper-1{
+       margin-top: 120px;
+       margin-bottom: 75px;
+    }
+    .wraper-1 .service-p-1{
+      font-size: 40px;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .wraper-1 .service-p-2{
+        font-size: 15px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* wraper-2*/
+    .container .wraper-2{
+        margin-bottom: 80px;
+        margin-top: 60px;
+    }
+    .wraper-2 .service-2-p1{
+        font-size: 20px;
+        letter-spacing: -0.4px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wraper-2 .service-2-p2{
+      margin-top:30px;
+      font-size:15px ;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    /* wraper for service 3*/
+    .wraper-3 .col-1{
+        float: left;
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 100%;
+    }
+    .wraper-3 .col-1 .pg-1{
+        font-size: 20px;
+        margin-top: 100px;
+        text-align: left;
+    }
+    .wraper-3 .col-1 .pg-2{
+        font-size: 15px;
+        text-align: left;
+    }
+    /* wraper-4*/
+    
+    .wraper-4 .col-2{
+        float: left;
+        width: 100%;
+    }
+    .wraper-4 hr{
+        margin-right:50px;
+        margin-top: 10px;
+        margin-left:50px;
+        margin-bottom: 10px;
+    }
+    .wraper-4 .col-2 .pg-1{
+      margin-right: 50px;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 50px;
+    }
+    .wraper-4 .col-2 .pg-2{
+        font-size: 15px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    /* wraper-5 */
+    
+    .wraper-5 .col-3{
+      float: left;
+      width: 100%;
+    }
+    .wraper-5 hr{
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 5px;
+    }
+    .wraper-5 .col-3 .pg-1{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    }
+    .wraper-5 .col-3 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left:50px;
+    }
+    /* wraper-6 - Our services*/
+    
+    .wraper-6 .sp-1{
+     font-size: 40px;
+     margin-bottom: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
+     text-align: center;
+     margin-top: 70px;
+     
+    }
+    .wraper-6 .sp-2{
+       font-size: 15px;
+       letter-spacing: -0.5px;
+       margin-left: 50px;
+       margin-right: 50px;
+       text-align: center;
+    }
+    /* wraper-7*/
+    
+    .wraper-7 .col-5{
+      float: left;
+      width: 100%;
+    }
+    .wraper-7 .pg-1{
+      margin-right: 50px;
+      margin-left: 50px;
+      font-size: 30px;
+      margin-top: 50px;
+    }
+    .wraper-7 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    /* wraper-8*/
+    
+    .wraper-8 .col-6{
+      float: left;
+      width: 100%;
+    }
+    .wraper-8 hr{
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+    }
+    .wraper-8 .pg-1{
+      margin-right: 50px;
+      margin-left: 50px;
+      font-size: 30px
+    }
+    .wraper-8 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    /* wraper-9*/
+    
+    .wraper-9 .col-7{
+      float: left;
+      width: 100%;
+    }
+    .wraper-9 hr{
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+    }
+    .wraper-9 .pg-1{
+      margin-right: 50px;
+      margin-left: 50px;
+      font-size: 30px
+    }
+    .wraper-9 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    /*wraper-10*/
+    
+    .wraper-10 .col-8{
+      float: left;
+      width: 100%;
+    }
+    .wraper-10 hr{
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+    
+    }
+    .wraper-10 .pg-1{
+      margin-right: 50px;
+      margin-left: 50px;
+      font-size: 30px
+    }
+    .wraper-10 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    /*wraper*/
+    .wraper-11{
+        height: 300px;
+    }
+    .wraper-11 h2{
+      margin-top: 80px;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 40px;
+    }
+    .wraper-11 p.msg{
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+    .wraper-11 p input{
+      margin-left: 50px;
+      margin-top:30px;
+      height: 45px;
+      width: 125px;
+    }
+
+    /* CONTACT */
+    .contact{
+        margin-top: 65px;
+        height: 1500px;
+       }
+    .myinfo hr{
+        width: 130px;
+        margin-left: 50px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    .myinfo h2{
+        font-size: 18px;
+        letter-spacing: -0.5px;
+        margin-top: 2px;
+        margin-left: 50px;
+    }
+    .myinfo h3{
+        font-size: 18px;
+        letter-spacing: -0.5px;
+        word-spacing: -0.5px;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+    .myinfo h1 a{
+        margin-top: 30px;
+        font-size: 25px;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+    .myinfo p{
+        font-size: 17px;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+    .col{
+        float: left;
+        width: 100%;
+    }
+    .col:first-child{
+        margin-bottom: 20px;
+    }
+    .col:last-child{
+        margin-left: 50px;
+    }
+    .myinfo{
+        margin-top: 90px;
+    }
+    .myform{
+        margin-top: 30px;
+    }
+    .myform .col-2{
+        float: left;
+    }
+    .col-2:first-child{
+        margin-right: 40px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .message textarea{
+        margin-right: 20px;
+        width: 510px;
+        height: 100px;
+        margin-left: 50px;
+    }
+    .col .myform .col-2:last-child{
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+    .message p label{
+        font-size: 20px;
+        margin-right: 20px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .col-2 input{
+        height: 50px;
+        width: 250px;
+        margin-left: 50px;
+    }
+    .message .check{
+        letter-spacing: 1px;
+        margin-left: 50px;
+        margin-right: 20px;
+        font-size: 12px;
+        margin-bottom: 100px;
+    }
+    /* select*/
+    .col-2 select{
+        width: 250px;
+        height: 50px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    .col-2 label{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    
+    .col-2{
+        margin-top: 50px;
+    }
+    
+    .col-2 label:last-child{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .message .submit input{
+        margin-top: 7px;
+        font-size: 20px;
+        width: 90px;
+        padding: 5px 5px;
+        letter-spacing: -0.5px;
+        height: 40px;
+        margin-left: 50px;
+    }
+
+    
+/* works*/
+.works{
+    margin-top: 100px;
+    height:1700px;
+    width: 100%;
+}
+.intromsg h2{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.intromsg p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Row 1 */
+.column1{
+    margin-bottom: 5px;
+}
+.column1{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.column1 .work-5{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.column1 .work-6{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+/* Row 2 */
+.column-2{
+    margin-top: 5px;
+}
+.column-2{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.column-2 .work-3{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.column-2 .work-4{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+    
+}
+@media  screen and (min-width:761px) and (max-width:1000px){
+    /* HEADER */
+    header {
+        position:fixed;
+        top: 0;
+        width: 100%
+        
+     }
+    
+      .topnav a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 25px 20px;
+        font-size: 14px;
+
+        letter-spacing: 3px;
+      }
+      a:first-child{
+          margin-right: 10%;
+          margin-left: 8%;
+      }
+      .topnav a.active {
+        font-size: 18px;
+      }
+      #myTopnav b{
+           font-size: 20px;
+      }
+      /* body */
+   #homeid-1 h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#homeid-1 .p1 {
+    margin-top: 25px;
+    font-size: 45px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+#homeid-1 .p2 {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+span {
+    font-size: 37px;
+    top: 200px;
+    letter-spacing: 6px;
+}
+.info-1 p b {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.column {
+    float: left;
+        width: 30%;
+    }
+    .column:first-child .pcol{
+        text-align:left;
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .column b{
+        color:white;
+        font-size: 25px;
+    }
+    .column:first-child{
+        margin-top: 20px;
+    }
+    .column:last-child{
+        margin-top: 20px;
+    }
+    .column .pcol-2, .pcol-2 a{
+        text-align: inherit;
+        line-height: 10px;
+        font-size: 15px;
+    }
+
+.row-2 .column{
+    float: left;
+    width: 40%;
+}
+.column .digtech{
+    font-size: 18px;
+}
+.row-2 .column ul{
+    font-size: 15px;
+}
+      /* About Page */
+      .about{
+        background-color:black;
+        margin-top: 50px;
+        height: 1300px;
+        position: inherit;
+        margin-bottom: 30px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .container .wraper2-1{
+        color:white;
+        margin-top: 200px;
+        height: 250px;
+        margin-left: 100px;
+    }
+    .wraper2-1 .p1{
+        font-size: 60px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    
+    }
+    .wraper2-1 .p2{
+        font-size: 20px;
+        margin-top: 15px;
+        letter-spacing: 1px;
+    }
+     /* about wraper2*/
+     .container .wraper2-2{
+        margin-top: 100px;
+        margin-bottom: 15px;
+        margin-left: 100px;
+     }
+     .wraper2-2 .col-1{
+         float: left;
+     }
+     .wraper2-2 .p1{
+       font-size: 25px;
+       margin-right: 175px;
+       color: white;
+     }
+     .wraper2-2 .p2{
+         font-size: 17px;
+         color:floralwhite;
+         font-weight: bold;
+     }
+     .wraper2-2 .p3{
+         margin-top: 15px;
+        font-size: 15px;
+        color:floralwhite;
+    }
+    
+    /* about wraper3*/
+    .container .wraper2-3{
+        margin-top: 15px;
+        margin-bottom: 20;
+        margin-left: 100px;
+     }
+     .wraper2-3 .col-2{
+         float: left;
+     }
+     .wraper2-3 .p1{
+       font-size: 25px;
+       margin-right: 225px;
+       color: white;
+     }
+     .wraper2-3 .p2{
+         font-size: 17px;
+         color:floralwhite;
+         font-weight: bold;
+     }
+     .wraper2-3 hr{
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+     .wraper2-3 .p3{
+        font-size: 15px;
+        color:floralwhite;
+        margin-top: 15px;
+    }
+    
+    /* about wraper4*/
+    .container .wraper2-4{
+        margin-top: 15px;
+        margin-bottom: 20PX;
+        margin-left: 100px;
+     }
+     .wraper2-4 .col-3{
+         float: left;
+     }
+     .wraper2-4 .p1{
+       font-size: 25px;
+       margin-right: 125px;
+       color:white;
+     }
+     .wraper2-4 .p2{
+         font-size: 17px;
+         color:floralwhite;
+         font-weight: bold;
+     }
+     .wraper2-4 hr{
+        margin-right: 40px;
+    }
+    
+    
+    /* about-5*/
+    .container-fluid .wraper-2-5{
+        margin-left: 100px;
+        margin-bottom: 100px;
+        background-color: white;
+        position: inherit;
+        width: 100%;
+        margin-left: 0;
+        height: 250px;
+    }
+    .wraper-2-5 h2{
+        color: black;
+        margin-top: 250px;
+        margin-left: 100px;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .wraper-2-5 p.msg{
+        color: black;
+        margin-left: 100px;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .wraper-2-5 p input{
+        background-color:rgba(241, 20, 20, 0.767);
+        margin-left: 100px;
+        margin-top:30px;
+        height: 45px;
+        width: 125px;
+    }
+
+     /* SERVICES */
+
+     #serviceid{
+        height: 2400px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    
+    /* wraper-1 for service */
+    .wraper-1{
+       margin-top: 120px;
+       margin-bottom: 75px;
+    }
+    .wraper-1 .service-p-1{
+      font-size: 40px;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .wraper-1 .service-p-2{
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* wraper-2*/
+    .container .wraper-2{
+        margin-bottom: 80px;
+        margin-top: 60px;
+    }
+    .wraper-2 .service-2-p1{
+        font-size: 20px;
+        letter-spacing: -0.4px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wraper-2 .service-2-p2{
+      margin-top:30px;
+      font-size:15px ;
+      text-align: center;
+    }
+    /* wraper for service 3*/
+    .wraper-3 .col-1{
+        float: left;
+        margin-top: 100px;
+    }
+    .wraper-3 .col-1 .pg-1{
+        font-size: 25px;
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 100px;
+    }
+    .wraper-3 .col-1 .pg-2{
+        font-size: 17px;
+        text-align: left;
+        margin-right: 10px;
+    }
+    /* wraper-4*/
+    
+    .wraper-4 .col-2{
+        float: left;
+    }
+    .wraper-4 hr{
+        margin-right:10px;
+        margin-top: 15px;
+        margin-left:10px;
+    }
+    .wraper-4 .col-2 .pg-1{
+      margin-right: 230px;
+      font-size: 25px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .wraper-4 .col-2 .pg-2{
+        font-size: 17px;
+        margin-right: 10px;
+        margin-right: 10px;
+    }
+    /* wraper-5 */
+    
+    .wraper-5 .col-3{
+      float: left;
+    }
+    .wraper-5 hr{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .wraper-5 .col-3 .pg-1{
+    margin-right: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    }
+    .wraper-5 .col-3 .pg-2{
+      font-size: 17px;
+      margin-right: 10px;
+    }
+    /* wraper-6 - Our services*/
+    
+    .wraper-6 .sp-1{
+     font-size: 40px;
+     margin-bottom: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
+     text-align: center;
+     margin-top: 70px;
+     
+    }
+    .wraper-6 .sp-2{
+       font-size: 18px;
+       letter-spacing: -0.5px;
+       margin-left: 50px;
+       margin-right: 50px;
+       text-align: center;
+    }
+    /* wraper-7*/
+    
+    .wraper-7 .col-5{
+      float: left;
+      margin-top: 100px;
+    }
+    .wraper-7 .pg-1{
+      margin-right: 275px;
+      margin-left: 10px;
+      font-size: 25px;
+      margin-top: 20px;
+    }
+    .wraper-7 .pg-2{
+      font-size: 17px;
+      margin-right: 10px;
+    }
+    /* wraper-8*/
+    
+    .wraper-8 .col-6{
+      float: left;
+    }
+    .wraper-8 hr{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .wraper-8 .pg-1{
+      margin-right: 270px;
+      margin-left: 10px;
+      font-size: 25px;
+      margin-top: 20px;
+    }
+    .wraper-8 .pg-2{
+      font-size: 17px;
+      margin-right: 10px;
+    }
+    /* wraper-9*/
+    
+    .wraper-9 .col-7{
+      float: left;
+    }
+    .wraper-9 hr{
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    .wraper-9 .pg-1{
+      margin-right: 205px;
+      margin-left: 10px;
+      font-size: 25px;
+      margin-top: 15px;
+    }
+    .wraper-9 .pg-2{
+      font-size: 17px;
+      margin-right: 10px;
+    }
+    /*wraper-10*/
+    
+    .wraper-10 .col-8{
+      float: left;
+    }
+    .wraper-10 hr{
+      margin-right: 10px;
+      margin-left: 10px;
+    
+    }
+    .wraper-10 .pg-1{
+      margin-right: 245px;
+      margin-left: 10px;
+      font-size: 25px
+    }
+    .wraper-10 .pg-2{
+      font-size: 15px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    /*wraper*/
+    .wraper-11{
+        height: 300px;
+    }
+    .wraper-11 h2{
+      margin-top: 80px;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 40px;
+    }
+    .wraper-11 p.msg{
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+    .wraper-11 p input{
+      margin-left: 50px;
+      margin-top:30px;
+      height: 45px;
+      width: 125px;
+    }
+
+   /* CONTACT */
+   .contact{
+    margin-top: 65px;
+    height: 1500px;
+   }
+.myinfo hr{
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.myinfo h2{
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+.myinfo h3{
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    word-spacing: -0.5px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.myinfo h1 a{
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.myinfo p{
+    font-size: 17px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.col{
+    float: left;
+    width: 100%;
+}
+.col:first-child{
+    margin-bottom: 20px;
+}
+.col:last-child{
+    margin-left: 50px;
+}
+.myinfo{
+    margin-top: 90px;
+}
+.myform{
+    margin-top: 30px;
+}
+.myform .col-2{
+    float: left;
+}
+.col-2:first-child{
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.message textarea{
+    margin-right: 20px;
+    width: 510px;
+    height: 100px;
+    margin-left: 50px;
+}
+.col .myform .col-2:last-child{
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.message p label{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.col-2 input{
+    height: 50px;
+    width: 250px;
+    margin-left: 50px;
+}
+.message .check{
+    letter-spacing: 1px;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+/* select*/
+.col-2 select{
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.col-2 label{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.col-2{
+    margin-top: 50px;
+}
+
+.col-2 label:last-child{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.message .submit input{
+    margin-top: 7px;
+    font-size: 20px;
+    width: 90px;
+    padding: 5px 5px;
+    letter-spacing: -0.5px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+/* works*/
+.works{
+    margin-top: 100px;
+    height:1700px;
+    width: 100%;
+}
+.intromsg h2{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.intromsg p{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Row 1 */
+.column1{
+    margin-bottom: 5px;
+}
+.column1{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.column1 .work-5{
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    height: 300px;
+    width: 85%;
+}
+.column1 .work-6{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+/* Row 2 */
+.column-2{
+    margin-top: 5px;
+}
+.column-2{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.column-2 .work-3{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.column-2 .work-4{
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+}
